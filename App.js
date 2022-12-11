@@ -1,12 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import Home from './components/Home';
-import Nav from './components/Nav';
+import Header from './components/Header';
 
 export default function App() {
   return (
     <View>
-      <Nav/>
+      <Header />
       <Home />
       <StatusBar hidden />
     </View>

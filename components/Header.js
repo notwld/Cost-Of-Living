@@ -1,7 +1,7 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
-const Nav = () => {
+const Header = () => {
   return (
     <View>
       <Text style={styles.NavBar}>Cost Of Living @ Pakistan</Text>
@@ -20,4 +20,4 @@ const styles = {
     }
 }
 
-export default Nav
+export default Header
